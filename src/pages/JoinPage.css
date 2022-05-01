@@ -1,0 +1,41 @@
+.join-content-wrap {
+    margin: 30px auto 0;
+    width: 460px;
+}
+.join-content-wrap > h1 {
+    font-size: 24px;
+    text-align: center;
+}
+.join-content {
+    margin-top: 30px;
+}
+.join-row > label {
+    display: block;
+    margin: 19px 0 8px;
+    font-weight: bold;
+}
+.join-row > input {
+    width: 100%;
+    height: 51px;
+    padding: 10px;
+    border: 1px solid #999;
+}
+.join-row > input:focus {
+    border: 1px solid #00aead;
+    outline: none;
+}
+.error-msg {
+    display: block;
+    margin-top: 5px;
+    color: #ff3333;
+}
+
+.join-btn {
+    cursor: pointer;
+    width: 100%;
+    height: 51px;
+    margin-top: 19px;
+    border: none;
+    background: #00aead;
+    color: #fff;
+}

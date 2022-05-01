@@ -1,0 +1,16 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+.login-ul > li {
+    display: inline-block;
+    margin: 0 5px;
+    text-align: right;
+    font-size: 12px;
+    cursor: pointer;
+}
+.login-ul > li > a {
+    font-size: 12px;
+}
