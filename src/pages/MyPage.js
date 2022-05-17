@@ -21,7 +21,7 @@ function MyPage(props) {
     const [isClubDetailShow, setIsClubDetailShow] = useState(false)
 
     const getMyPage = async () => {
-        const response = await axios.post(`${process.env.REACT_APP_URL}/users/mypage`)
+        const response = await axios.get(`${process.env.REACT_APP_URL}/users/mypage`)
 
         const mypage = response.data.mypage
         
